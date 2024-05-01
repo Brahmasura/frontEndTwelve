@@ -1,0 +1,29 @@
+.cardDiv {
+  border: 1px solid black;
+  width: 94%;
+  height: 24vh;
+  border-radius: 15px;
+  padding: 0.3rem 1rem;
+  box-shadow: 4px 15px 26px hsl(229, 6%, 66%);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-top: 5px solid;
+  position: relative;
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  img {
+    position: absolute;
+    width: 20%;
+    height: auto;
+    align-self: end;
+    bottom: 1rem;
+  }
+}

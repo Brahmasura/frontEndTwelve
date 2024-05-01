@@ -1,0 +1,25 @@
+.containerDiv {
+  height: 55vh;
+  width: 70vw;
+
+  margin-top: 2vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  .extreme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .center {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+
+    .centered {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

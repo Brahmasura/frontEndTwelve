@@ -1,0 +1,21 @@
+.mainDiv {
+  background-color: hsl(0, 0%, 98%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1:nth-child(1) {
+    font-weight: 200;
+  }
+
+  h1:nth-child(2) {
+    font-weight: 500;
+  }
+
+  .headingP {
+    text-align: center;
+    font-weight: 200;
+  }
+}
